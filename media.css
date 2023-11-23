@@ -1,0 +1,239 @@
+@media all and (min-width: 768px) {
+    .nav-image-lg {
+        background-image: url(asets/images/nav-image-md.png);
+        margin-left: -64px;
+       display: block;
+       height: 365px;
+    }
+
+    .add {
+        margin-left: -64px;
+    }
+
+    .sidenav {
+        width: 64px;
+    }
+
+    .grid-conteiner {
+        margin-left: -64px;
+    }
+
+    .footer {
+        margin-left: -64px;
+        height: 270px;
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .main-title {
+        font-size: 1.1rem;
+    }
+
+    .button-play {
+        padding-top: 26px;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 11.4px;
+        justify-content: center;
+    }
+
+    .black-box {
+        display: none;
+    }
+
+}
+
+
+@media all and (max-width: 375px) {
+    .nav-image-lg {
+        background-image: url(asets/images/nav\ image\ sm.png);
+        margin-left: -109px;
+        height: 243px;
+        background-image: no-repeat;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    .grid-conteiner {
+        margin-left: -109px;
+    }
+
+    .add {
+        margin-left: -109px;
+    }
+
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10.58px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+
+    .button-play {
+        padding-top: 20px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .footer {
+        margin-left: -109px;
+        height: 305px;
+        font-size: 1rem;
+        background-image: url(asets/images/footerimagesm.png);
+    }
+
+    .footer-image2 {
+        display: none;
+    }
+
+    .main-title p {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .main-title {
+        top: 10.5%;
+    }
+
+}
+
+@media all and (min-width: 1440px) {
+    .black-box {
+        display: none;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 109px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        padding-top: 30px;
+    
+    }
+    
+    .sidenav a {
+        display: flex;
+        justify-content: center;
+        padding-top: 38px;
+    
+    }
+    
+    main {
+        margin-left: 109px;
+        padding: 0;
+    }
+    
+    .nav-image-lg {
+        background-image: url(asets/images/nav\ image\ lg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        padding-left: 69px;
+        
+    }
+    
+    .main-title {
+        position: absolute;
+        display: block;
+        margin-left: 30px;
+        color: white;
+    }
+    
+    
+    h1 {
+        font-family: Anton;
+        font-size: 8rem;
+        padding-top: 20px;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        padding-top: 20px;
+    }
+    
+    .button-play {
+        display: block;
+        padding-top: 46px;
+    }
+    
+    .add {
+        display: block;
+        font-size: 3rem;
+        color: white;
+        padding-top: 80px;
+        padding-left: 100px;
+        height: 58px;
+        justify-content: center;
+    }
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-gap: 18.5px;
+        padding-left: 30px;
+        justify-content: center;
+    }
+    
+    footer {
+        margin-left: 109px;
+    }
+    
+    h2 {
+        font-size: 4rem;
+    }
+    
+    .footer {
+        display: flex;
+        background-color: black;
+        height: 386px;
+        margin-top: 132px;
+        color: white;
+        font-size: 1.5rem;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .footer-title {
+        padding-left: 100px;
+    }
+    
+    .email {
+        display: block;
+        margin-top: 46px;
+    }
+    
+    .background {
+        background-image: url(asets/images/footerimagesm.png);
+        height: 307px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
